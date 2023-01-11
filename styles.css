@@ -1,29 +1,16 @@
 
 /* Your CSS Code here. */
-/* Keyword values */
-place-items: center;
-place-items: normal start;
+.holder{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
 
-/* Positional alignment */
-place-items: center normal;
-place-items: start legacy;
-place-items: end normal;
-place-items: self-start legacy;
-place-items: self-end normal;
-place-items: flex-start legacy;
-place-items: flex-end normal;
-place-items: left legacy;
-place-items: right normal;
-
-/* Baseline alignment */
-place-items: baseline normal;
-place-items: first baseline legacy;
-place-items: last baseline normal;
-place-items: stretch legacy;
-
-/* Global values */
-place-items: inherit;
-place-items: initial;
-place-items: revert;
-place-items: revert-layer;
-place-items: unset;
+  .box{
+    min-width: 100px;
+    background-color:antiquewhite;
+    border: 1px solid black;
+  }
